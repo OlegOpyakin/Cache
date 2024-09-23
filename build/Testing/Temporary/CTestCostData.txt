@@ -1,0 +1,10 @@
+HelloTest.BasicAssertions 1 0.002055
+LFUTest.AddElement 1 0.00342538
+LFUTest.FrequencyIncrement 1 0.00167446
+LFUTest.PopMinFreqElement 1 0.00167108
+LFUTest.ReturnHits 1 0.00159033
+LFUTest.ExceedCacheSize 1 0.00155058
+LFUTest.HardTest 0 0
+LFUTest.TeacherTest 1 0.00157921
+---
+LFUTest.HardTest

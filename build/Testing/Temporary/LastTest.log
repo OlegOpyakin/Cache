@@ -1,0 +1,179 @@
+Start testing: Sep 23 15:12 MSK
+----------------------------------------------------------
+1/7 Testing: LFUTest.AddElement
+1/7 Test: LFUTest.AddElement
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.AddElement" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.AddElement" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.AddElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.AddElement
+[       OK ] LFUTest.AddElement (0 ms)
+[----------] 1 test from LFUTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LFUTest.AddElement" end time: Sep 23 15:12 MSK
+"LFUTest.AddElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: LFUTest.FrequencyIncrement
+2/7 Test: LFUTest.FrequencyIncrement
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.FrequencyIncrement" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.FrequencyIncrement" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.FrequencyIncrement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.FrequencyIncrement
+[       OK ] LFUTest.FrequencyIncrement (0 ms)
+[----------] 1 test from LFUTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LFUTest.FrequencyIncrement" end time: Sep 23 15:12 MSK
+"LFUTest.FrequencyIncrement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: LFUTest.PopMinFreqElement
+3/7 Test: LFUTest.PopMinFreqElement
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.PopMinFreqElement" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.PopMinFreqElement" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.PopMinFreqElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.PopMinFreqElement
+[       OK ] LFUTest.PopMinFreqElement (0 ms)
+[----------] 1 test from LFUTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LFUTest.PopMinFreqElement" end time: Sep 23 15:12 MSK
+"LFUTest.PopMinFreqElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: LFUTest.ReturnHits
+4/7 Test: LFUTest.ReturnHits
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.ReturnHits" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.ReturnHits" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.ReturnHits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.ReturnHits
+[       OK ] LFUTest.ReturnHits (0 ms)
+[----------] 1 test from LFUTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LFUTest.ReturnHits" end time: Sep 23 15:12 MSK
+"LFUTest.ReturnHits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: LFUTest.ExceedCacheSize
+5/7 Test: LFUTest.ExceedCacheSize
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.ExceedCacheSize" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.ExceedCacheSize" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.ExceedCacheSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.ExceedCacheSize
+[       OK ] LFUTest.ExceedCacheSize (0 ms)
+[----------] 1 test from LFUTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LFUTest.ExceedCacheSize" end time: Sep 23 15:12 MSK
+"LFUTest.ExceedCacheSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: LFUTest.HardTest
+6/7 Test: LFUTest.HardTest
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.HardTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.HardTest" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.HardTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.HardTest
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"LFUTest.HardTest" end time: Sep 23 15:12 MSK
+"LFUTest.HardTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: LFUTest.TeacherTest
+7/7 Test: LFUTest.TeacherTest
+Command: "/Users/oleg/Desktop/Новая папка/build/TESTS" "--gtest_filter=LFUTest.TeacherTest" "--gtest_also_run_disabled_tests"
+Directory: /Users/oleg/Desktop/Новая папка/build
+"LFUTest.TeacherTest" start time: Sep 23 15:12 MSK
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LFUTest.TeacherTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LFUTest
+[ RUN      ] LFUTest.TeacherTest
+[       OK ] LFUTest.TeacherTest (0 ms)
+[----------] 1 test from LFUTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LFUTest.TeacherTest" end time: Sep 23 15:12 MSK
+"LFUTest.TeacherTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 23 15:12 MSK
