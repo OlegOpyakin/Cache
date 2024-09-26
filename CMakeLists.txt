@@ -3,8 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 project(my_project)
 
 # GoogleTest requires at least C++14
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "-std=c++20 -O2 -g")
 
 include(FetchContent)
 FetchContent_Declare(
@@ -18,18 +17,20 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_executable(
-  TESTS
-  src/TESTS.cc
-)
+add_library(Lib SHARED src/PerfectCache.cc)
+
+add_executable(TESTS src/TESTS.cc)
+add_executable(LFUMAIN src/LFUMain.cc)
+add_executable(PERFECTMAIN src/PerfectCacheMain.cc)
 
 target_include_directories(TESTS PUBLIC include/)
+target_include_directories(LFUMAIN PUBLIC include/)
 
+target_include_directories(PERFECTMAIN PUBLIC include/)
+target_include_directories(Lib PUBLIC include/)
 
-target_link_libraries(
-  TESTS
-  GTest::gtest_main
-)
+target_link_libraries(TESTS GTest::gtest_main Lib)
+target_link_libraries(PERFECTMAIN Lib)
 
 include(GoogleTest)
 gtest_discover_tests(TESTS)

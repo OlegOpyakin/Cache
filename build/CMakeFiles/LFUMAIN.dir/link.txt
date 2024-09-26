@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++20 -O2 -g CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o -o LFUMAIN 
