@@ -6,6 +6,8 @@
  *  4. Sorry for my bad English)))
 */
 
+#include <algorithm>
+
 template <typename T>
 LFU<T>::LFU(unsigned int size): size(size) {
     next_key = first_key;
