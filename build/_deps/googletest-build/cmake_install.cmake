@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-src
+# Install script for directory: /home/user/Документы/GitHub/Cache/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/home/user/Документы/GitHub/Cache/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

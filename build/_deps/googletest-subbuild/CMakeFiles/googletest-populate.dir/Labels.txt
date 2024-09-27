@@ -1,14 +1,14 @@
 # Target labels
  googletest-populate
 # Source files and their labels
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule

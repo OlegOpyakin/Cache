@@ -1,7 +1,7 @@
 CMakeFiles/Lib.dir/src/PerfectCache.cc.o: \
- /home/user/Загрузки/Telegram\ Desktop/project/project/src/PerfectCache.cc \
+ /home/user/Документы/GitHub/Cache/src/PerfectCache.cc \
  /usr/include/stdc-predef.h \
- /home/user/Загрузки/Telegram\ Desktop/project/project/include/PerfectCache.h \
+ /home/user/Документы/GitHub/Cache/include/PerfectCache.h \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

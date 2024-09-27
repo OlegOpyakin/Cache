@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/user/Загрузки/Telegram Desktop/project/project/src/LFUMain.cc" "CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o" "gcc" "CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o.d"
+  "/home/user/Документы/GitHub/Cache/src/LFUMain.cc" "CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o" "gcc" "CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,5 @@
-if(EXISTS "/home/user/Загрузки/Telegram Desktop/project/project/build/TESTS[1]_tests.cmake")
-  include("/home/user/Загрузки/Telegram Desktop/project/project/build/TESTS[1]_tests.cmake")
+if(EXISTS "/home/user/Документы/GitHub/Cache/build/TESTS[1]_tests.cmake")
+  include("/home/user/Документы/GitHub/Cache/build/TESTS[1]_tests.cmake")
 else()
   add_test(TESTS_NOT_BUILT TESTS_NOT_BUILT)
 endif()

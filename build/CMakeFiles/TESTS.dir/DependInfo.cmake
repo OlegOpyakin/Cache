@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/user/Загрузки/Telegram Desktop/project/project/src/TESTS.cc" "CMakeFiles/TESTS.dir/src/TESTS.cc.o" "gcc" "CMakeFiles/TESTS.dir/src/TESTS.cc.o.d"
+  "/home/user/Документы/GitHub/Cache/src/TESTS.cc" "CMakeFiles/TESTS.dir/src/TESTS.cc.o" "gcc" "CMakeFiles/TESTS.dir/src/TESTS.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles/Lib.dir/DependInfo.cmake"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/user/Документы/GitHub/Cache/build/CMakeFiles/Lib.dir/DependInfo.cmake"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

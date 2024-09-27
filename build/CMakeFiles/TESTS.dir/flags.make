@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/user/Загрузки/Telegram Desktop/project/project/include" -isystem "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-src/googletest/include" -isystem "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-src/googletest"
+CXX_INCLUDES = -I/home/user/Документы/GitHub/Cache/include -isystem /home/user/Документы/GitHub/Cache/build/_deps/googletest-src/googletest/include -isystem /home/user/Документы/GitHub/Cache/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -std=c++20 -O2 -g
 

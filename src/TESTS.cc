@@ -66,9 +66,12 @@ TEST_F(PerfectTest, FrequencyIncrement) {
 }
 
 TEST_F(LFUTest, FrequencyIncrement) {
-    lfu->Put(1);
-    lfu->Put(1);
-    EXPECT_EQ(lfu->ReturnHits(), 1);
+    lfu2->Put(1);
+    lfu2->Put(1);
+    lfu2->Put(2);
+    lfu2->Put(2);
+    lfu2->Put(3);
+    EXPECT_EQ(lfu2->ReturnHits(), 2);
 }
 
 // ---------- Test for removing an element with a minimum frequency ----------

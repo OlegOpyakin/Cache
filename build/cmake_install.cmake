@@ -1,4 +1,4 @@
-# Install script for directory: /home/user/Загрузки/Telegram Desktop/project/project
+# Install script for directory: /home/user/Документы/GitHub/Cache
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/user/Документы/GitHub/Cache/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/user/Загрузки/Telegram Desktop/project/project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/user/Документы/GitHub/Cache/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/user/Загрузки/Telegram Desktop/project/project"
+CMAKE_SOURCE_DIR = /home/user/Документы/GitHub/Cache
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/user/Загрузки/Telegram Desktop/project/project/build"
+CMAKE_BINARY_DIR = /home/user/Документы/GitHub/Cache/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" "/home/user/Загрузки/Telegram Desktop/project/project/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles /home/user/Документы/GitHub/Cache/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -10,7 +10,9 @@
 #define LFU_MODDED_H
 
 #include <unordered_map>
-#include <list>
+#include <vector>
+#include <utility>
+#include <algorithm>
 
 template <typename T>
 
@@ -48,7 +50,7 @@ private:
     const unsigned int max_key = 4294967295;
 
     std::unordered_map<unsigned int, std::pair<T, unsigned int>> hash_table;    // hash table: key - info(value, freq)
-    std::unordered_map<unsigned int, std::list<unsigned int>> freq_keys_map;    // freq - keys_with_this_freq
+    std::unordered_map<unsigned int, std::vector<unsigned int>> freq_keys_map;    // freq - keys_with_this_freq
 
     // Костыль
     std::unordered_map<T, unsigned int> value_key_map;

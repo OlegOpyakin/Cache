@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/user/Загрузки/Telegram Desktop/project/project"
+CMAKE_SOURCE_DIR = /home/user/Документы/GitHub/Cache
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/user/Загрузки/Telegram Desktop/project/project/build"
+CMAKE_BINARY_DIR = /home/user/Документы/GitHub/Cache/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -140,14 +140,14 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/Lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=3,4 "Built target Lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=3,4 "Built target Lib"
 .PHONY : CMakeFiles/Lib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : CMakeFiles/Lib.dir/rule
 
 # Convenience name for target.
@@ -168,14 +168,14 @@ CMakeFiles/TESTS.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir
 CMakeFiles/TESTS.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TESTS.dir/build.make CMakeFiles/TESTS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TESTS.dir/build.make CMakeFiles/TESTS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=7,8 "Built target TESTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=7,8 "Built target TESTS"
 .PHONY : CMakeFiles/TESTS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TESTS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TESTS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : CMakeFiles/TESTS.dir/rule
 
 # Convenience name for target.
@@ -194,14 +194,14 @@ CMakeFiles/TESTS.dir/clean:
 CMakeFiles/LFUMAIN.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LFUMAIN.dir/build.make CMakeFiles/LFUMAIN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LFUMAIN.dir/build.make CMakeFiles/LFUMAIN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=1,2 "Built target LFUMAIN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=1,2 "Built target LFUMAIN"
 .PHONY : CMakeFiles/LFUMAIN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LFUMAIN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LFUMAIN.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : CMakeFiles/LFUMAIN.dir/rule
 
 # Convenience name for target.
@@ -220,14 +220,14 @@ CMakeFiles/LFUMAIN.dir/clean:
 CMakeFiles/PERFECTMAIN.dir/all: CMakeFiles/Lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PERFECTMAIN.dir/build.make CMakeFiles/PERFECTMAIN.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PERFECTMAIN.dir/build.make CMakeFiles/PERFECTMAIN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=5,6 "Built target PERFECTMAIN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=5,6 "Built target PERFECTMAIN"
 .PHONY : CMakeFiles/PERFECTMAIN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PERFECTMAIN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PERFECTMAIN.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : CMakeFiles/PERFECTMAIN.dir/rule
 
 # Convenience name for target.
@@ -246,14 +246,14 @@ CMakeFiles/PERFECTMAIN.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=9,10 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=9,10 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -273,14 +273,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=11,12 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -299,14 +299,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=13,14 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -325,14 +325,14 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/Документы/GitHub/Cache/build/CMakeFiles --progress-num=15,16 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/user/Загрузки/Telegram Desktop/project/project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/Документы/GitHub/Cache/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

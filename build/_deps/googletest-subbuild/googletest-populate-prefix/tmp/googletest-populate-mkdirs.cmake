@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-src"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-build"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-src"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-build"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

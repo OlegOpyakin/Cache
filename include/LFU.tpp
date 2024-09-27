@@ -43,9 +43,14 @@ bool LFU<T>::BoolFindKey(const T new_value) const {
 // Increases the frequency of occurrence of an element by 1
 template <typename T>
 void LFU<T>::FreqIncrement(const unsigned int key) {
-    std::list<unsigned int> temp = freq_keys_map[hash_table[key].second];
+    std::vector<unsigned int> temp_old = freq_keys_map[hash_table[key].second];
+    std::vector<unsigned int> temp_new= freq_keys_map[hash_table[key].second + 1];
     unsigned int new_freq_hash = hash_table[key].second + 1;
     T hash_value = hash_table[key].first;
+
+    // delete key in list value in freq_keys_map (temp) and add front new
+    temp_old.erase(std::remove(temp_old.begin(), temp_old.end(), key), temp_old.end());
+    temp_new.insert(temp_new.begin(), key);
 
     // clear the old maps of more unused elements
     freq_keys_map.erase(hash_table[key].second);
@@ -54,7 +59,8 @@ void LFU<T>::FreqIncrement(const unsigned int key) {
 
     // will give them new elements
     hash_table[key] = std::make_pair(hash_value, new_freq_hash);
-    freq_keys_map[hash_table[key].second] = temp;
+    freq_keys_map[hash_table[key].second - 1] = temp_old;
+    freq_keys_map[hash_table[key].second] = temp_new;
 
     if (freq_keys_map[min_freq].empty()) {
         min_freq += 1;
@@ -75,10 +81,10 @@ void LFU<T>::PopMinFreqElement(){
 template <typename T>
 void LFU<T>::AddNewElement(const T new_value) {
     hash_table.insert({next_key,  std::make_pair(new_value, new_elem_freq)});
-    std::list<unsigned int> key_list;
+    std::vector<unsigned int> key_list;
 
     freq_keys_map.insert({new_elem_freq, key_list});
-    freq_keys_map[new_elem_freq].push_front(next_key);
+    freq_keys_map[new_elem_freq].insert(freq_keys_map[new_elem_freq].begin(), next_key);
 
     value_key_map.insert({new_value, next_key});
 

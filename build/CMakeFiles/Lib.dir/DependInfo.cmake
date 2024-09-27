@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/user/Загрузки/Telegram Desktop/project/project/src/PerfectCache.cc" "CMakeFiles/Lib.dir/src/PerfectCache.cc.o" "gcc" "CMakeFiles/Lib.dir/src/PerfectCache.cc.o.d"
+  "/home/user/Документы/GitHub/Cache/src/PerfectCache.cc" "CMakeFiles/Lib.dir/src/PerfectCache.cc.o" "gcc" "CMakeFiles/Lib.dir/src/PerfectCache.cc.o.d"
   )
 
 # Targets to which this target links.

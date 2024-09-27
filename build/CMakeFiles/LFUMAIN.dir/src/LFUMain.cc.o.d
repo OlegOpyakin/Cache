@@ -1,5 +1,5 @@
 CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o: \
- /home/user/Загрузки/Telegram\ Desktop/project/project/src/LFUMain.cc \
+ /home/user/Документы/GitHub/Cache/src/LFUMain.cc \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -154,7 +154,7 @@ CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/user/Загрузки/Telegram\ Desktop/project/project/include/LFU.h \
+ /home/user/Документы/GitHub/Cache/include/LFU.h \
  /usr/include/c++/12/unordered_map \
  /usr/include/c++/12/ext/aligned_buffer.h \
  /usr/include/c++/12/bits/hashtable.h \
@@ -163,8 +163,20 @@ CMakeFiles/LFUMAIN.dir/src/LFUMain.cc.o: \
  /usr/include/c++/12/bits/enable_special_members.h \
  /usr/include/c++/12/bits/node_handle.h \
  /usr/include/c++/12/bits/unordered_map.h \
- /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/list \
- /usr/include/c++/12/bits/stl_list.h \
- /usr/include/c++/12/bits/allocated_ptr.h \
- /usr/include/c++/12/bits/list.tcc \
- /home/user/Загрузки/Telegram\ Desktop/project/project/include/LFU.tpp
+ /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/utility \
+ /usr/include/c++/12/bits/stl_relops.h /usr/include/c++/12/algorithm \
+ /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/bits/ranges_algo.h \
+ /usr/include/c++/12/bits/ranges_algobase.h \
+ /usr/include/c++/12/bits/ranges_util.h \
+ /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/12/pstl/execution_defs.h \
+ /home/user/Документы/GitHub/Cache/include/LFU.tpp

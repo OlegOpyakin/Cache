@@ -1,3 +1,3 @@
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/user/Загрузки/Telegram Desktop/project/project/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/user/Документы/GitHub/Cache/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
