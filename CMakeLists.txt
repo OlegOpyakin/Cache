@@ -17,10 +17,18 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_library(Lib SHARED src/PerfectCache.cc)
+add_library(Lib SHARED src/PerfectCache.cc src/DoubleLinkedList.cc src/Node.cc)
 
 add_executable(TESTS src/TESTS.cc)
-add_executable(LFUMAIN src/LFUMain.cc)
+add_executable(LFUMAIN
+src/LFUMain.cc
+src/DoubleLinkedList.cc
+include/DoubleLinkedList.h
+src/Node.cc
+include/Node.h
+include/LFU.h
+include/LFU.hpp
+)
 add_executable(PERFECTMAIN src/PerfectCacheMain.cc)
 
 target_include_directories(TESTS PUBLIC include/)

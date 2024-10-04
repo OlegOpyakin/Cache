@@ -1,8 +1,16 @@
 #include <gtest/gtest.h>
-#include "PerfectCache.h"
-#include <LFU.h>
 #include <random>
 #include <ctime>
+#include "PerfectCache.h"
+#include "LFU.h"
+#include "DoubleLinkedList.h"
+
+class DoubleLinkedListTest : public ::testing::Test{
+protected:
+    DoubleLinkedList list;
+    void SetUp() override {}
+    void TearDown() override {}
+};
 
 class PerfectTest : public ::testing::Test{
 protected:
@@ -47,6 +55,22 @@ protected:
         delete lfu3;
     }
 };
+
+// ---------------------- Test Double Linked list ----------------------
+
+TEST_F(DoubleLinkedListTest, AddElement) {
+    list.push_front(10);
+    list.push_front(20);
+    list.push_front(30);
+
+    list.remove(20);
+    list.remove(30);
+
+    list.push_front(40);
+
+    EXPECT_EQ(list.get_size(), 2);
+    EXPECT_EQ(list.get_map_size(), 2);
+}
 
 // ---------------------- Test for adding an element ----------------------
 

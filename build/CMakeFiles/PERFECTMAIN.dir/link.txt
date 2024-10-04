@@ -1,1 +1,0 @@
-/usr/bin/c++ -std=c++20 -O2 -g CMakeFiles/PERFECTMAIN.dir/src/PerfectCacheMain.cc.o -o PERFECTMAIN  -Wl,-rpath,/home/user/Документы/GitHub/Cache/build libLib.so 
